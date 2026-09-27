@@ -1,0 +1,7 @@
+def transpose_rectangular(matrix):
+    if not matrix:
+        return []
+    width = len(matrix[0])
+    if any(len(row) != width for row in matrix):
+        raise ValueError("rows have different lengths")
+    return [[matrix[i][j] for i in range(len(matrix))] for j in range(width)]
