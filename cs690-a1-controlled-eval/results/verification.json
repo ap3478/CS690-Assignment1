@@ -19,3 +19,10 @@
   "verification_schema": "cs690-a1-verification-v1",
   "verified_at_utc": "2026-09-27T01:58:44.581022+00:00"
 }
+OK: loaded 20 frozen tasks
+OK: dataset sha256 5d84176547cb679f4145676d1f4dfd5061bf3b9600904911da8e5700e82eee3b
+OK: generated Python executed in Docker sandbox
+OK: candidate network probe was blocked
+OK: model/configuration metadata written to results/verification.json
+..................                                                                                                                  [100%]
+20 passed in 0.46s
